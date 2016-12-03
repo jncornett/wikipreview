@@ -28,7 +28,12 @@
         "http://*/*",
         "https://*/*"
       ],
+      "css": [
+        "bower_components/tipso/src/tipso.min.css"
+      ],
       "js": [
+        "bower_components/jQuery/dist/jquery.min.js",
+        "bower_components/tipso/src/tipso.min.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",

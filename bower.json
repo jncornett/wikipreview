@@ -2,7 +2,10 @@
   "name": "wikipreview",
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "jQuery": "^3.1.1",
+    "tipso": "^1.0.8"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
