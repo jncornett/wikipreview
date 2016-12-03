@@ -152,6 +152,9 @@ class Widget {
 
 // entry point
 jQuery(() => {
+  // FIXME this is probably not the right way to do this
+  // remove title attribute from links so that they don't get in the way
+  jQuery('a[href^="/wiki/"]').removeAttr('title');
   const widget = new Widget();
   // add a listener for enable/disable requests
   chrome.runtime.onMessage.addListener(message => {
