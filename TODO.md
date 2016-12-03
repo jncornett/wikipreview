@@ -1,0 +1,2 @@
+- add ability to style tooltips in options page
+- use better icons
