@@ -1,2 +1,4 @@
 - add ability to style tooltips in options page
 - use better icons
+- add development instructions
+- remove default hover tooltips (they get in the way of the opentips)
