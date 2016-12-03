@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "jQuery": "^3.1.1",
-    "tipso": "^1.0.8"
+    "opentip": "^2.4.6"
   },
   "devDependencies": {
     "chai": "^3.5.0",
