@@ -9,11 +9,15 @@
   "default_locale": "en",
   "background": {
     "scripts": [
+      "scripts/log.js",
+      "scripts/model.js",
       "scripts/chromereload.js",
+      "scripts/defaultoptions.js",
       "scripts/background.js"
     ]
   },
   "permissions": [
+    "storage",
     "tabs",
     "http://*/*",
     "https://*/*"
@@ -34,6 +38,9 @@
         "bower_components/jquery/jquery.min.js",
         "bower_components/opentip/lib/opentip.js",
         "bower_components/opentip/lib/adapter-jquery.js",
+        "scripts/log.js",
+        "scripts/wiki.js",
+        "scripts/model.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",

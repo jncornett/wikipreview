@@ -11,7 +11,10 @@
     <!-- endbuild -->
   </head>
   <body>
-    <h1>'Allo, 'Allo!</h1>
+    <label>
+      <input type="checkbox", id="enabled-by-default">
+      Enable by default
+    </label>
 
     <!-- build:js scripts/options-vendor.js -->
     <!-- bower:js -->
@@ -21,6 +24,15 @@
     <!-- endbower -->
     <!-- endbuild -->
 
+    <!-- build:js scripts/log.js -->
+    <script src="scripts/log.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/model.js -->
+    <script src="scripts/model.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/defaultoptions.js -->
+    <script src="scripts/defaultoptions.js"></script>
+    <!-- endbuild -->
     <!-- build:js scripts/options.js -->
     <script src="scripts/options.js"></script>
     <!-- endbuild -->
